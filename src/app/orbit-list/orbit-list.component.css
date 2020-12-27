@@ -4,23 +4,31 @@
 }
 
 .warning {
-  background-color: crimson;
+  color: darkgoldenrod;
+  border: darkgoldenrod solid 1px;
+  background-color: darkred;
 }
 
 table {
   color: black;
   text-shadow: 2px 4px 5px darkslategray;
   border-radius: 5px;
+  border: solid 8px darkslategray;
   overflow: hidden;
-  margin: 12px 0;
-  min-width: 300px;
+  width: 100%;
   background: cadetblue;
+  padding: .5%;
+}
+
+tr:nth-child(even) {
+  color: cyan;
+  text-shadow: 2px 4px 5px darkcyan;
+  background-color: darkslategray;
 }
 
 .header-row {
   background: #34495e;
   color: #fff;
-  text-shadow: 0px 0px black;
 }
 
 th,
