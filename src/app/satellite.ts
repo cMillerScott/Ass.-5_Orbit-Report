@@ -20,8 +20,10 @@ export class Satellite {
 
   shouldShowWarning() {
     if (this.type.toLowerCase() === "space debris") {
+      console.log("yes");
       return true;
     } else {
+      console.log("no");
       return false;
     }
   }
