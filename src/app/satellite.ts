@@ -18,12 +18,10 @@ export class Satellite {
     this.operational = operational;
   }
 
-  shouldShowWarning() {
+  shouldShowWarning(): boolean {
     if (this.type.toLowerCase() === "space debris") {
-      console.log("yes");
       return true;
     } else {
-      console.log("no");
       return false;
     }
   }

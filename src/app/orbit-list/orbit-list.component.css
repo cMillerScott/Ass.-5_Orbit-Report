@@ -17,7 +17,7 @@ table {
   overflow: hidden;
   width: 100%;
   background: cadetblue;
-  padding: .5%;
+  padding: 0.5%;
 }
 
 tr:nth-child(even) {
