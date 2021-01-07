@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
 body {
   background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2018/1-earth.jpg);
+  background-attachment: fixed;
 }
