@@ -17,9 +17,11 @@ export class Satellite {
     this.orbitType = orbitType;
     this.operational = operational;
   }
-
+  //method for determining if type is space debris
   shouldShowWarning(): boolean {
+    //conditional comparing case insensitive type to space debris
     if (this.type.toLowerCase() === "space debris") {
+      //returns boolean value
       return true;
     } else {
       return false;

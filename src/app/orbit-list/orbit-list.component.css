@@ -4,9 +4,22 @@
 }
 
 .warning {
-  color: darkgoldenrod;
-  border: darkgoldenrod solid 1px;
-  background-color: darkred;
+  background-color: cadetblue;
+  color: black;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  from {
+    background-color: cadetblue;
+    color: black;
+  }
+  to {
+    color: darkgoldenrod;
+    background-color: darkred;
+  }
 }
 
 table {
