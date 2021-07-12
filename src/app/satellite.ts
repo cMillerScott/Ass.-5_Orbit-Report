@@ -21,7 +21,7 @@ export class Satellite {
   shouldShowWarning(): boolean {
     //conditional comparing case insensitive type to space debris
     if (this.type.toLowerCase() === "space debris") {
-      //returns boolean value
+      //returns boolean value 
       return true;
     } else {
       return false;
